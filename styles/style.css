@@ -1,0 +1,71 @@
+/**{
+
+	border: 1px solid red !important;
+}*/
+body{
+
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.3);
+
+  }
+
+ .navbar-default .nav > li > a {
+ color: white;
+  
+}
+header{
+position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../images/landscape2.jpg');
+  text-align: center;
+  color: white;
+  height: 100vh;
+}
+header .header-content {
+  position: relative;
+  text-align: center;
+  padding: 100px 15px 100px;
+  width: 100%;
+}
+header .header-content .header-content-inner h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 60px;
+
+  
+}
+header .header-content .header-content-inner hr {
+  margin: 30px auto;
+
+
+}
+header .header-content .header-content-inner p {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  margin-bottom: 50px;
+
+}
+#me{
+
+	height: 200px;
+	margin-left: 300px;
+	margin-top: 0px;
+	position: absolute;
+	
+}
