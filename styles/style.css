@@ -20,6 +20,14 @@ body{
  color: white;
   
 }
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+.navbar-default .nav > li > a.scrolled {
+ color: rgb(85, 85, 85);
+  
+}
 header{
 position: relative;
   width: 100%;
@@ -69,3 +77,79 @@ header .header-content .header-content-inner p {
 	position: absolute;
 	
 }
+#about{
+  background-color: #4a5F70;
+  height: 50vh;
+}
+#skills{
+
+ /* height: 100vh;*/
+}
+
+
+#portfolio{
+
+  background-color: #80716a;
+ margin-top: 10px;
+
+}
+
+.portfolio_img{
+
+ 
+
+}
+
+.padding-0{
+    padding: 0;
+}
+#contact{
+
+ background-color: #66777d;
+  
+ height: 50vh;
+}
+
+
+
+header a span {
+  position: absolute;
+  top: 1;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb04 2s infinite;
+  animation: sdb04 2s infinite;
+  box-sizing: border-box;
+  margin-top: 100px;
+}
+@-webkit-keyframes sdb04 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    -webkit-transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+  }
+}
+@keyframes sdb04 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+}
+
+
+
