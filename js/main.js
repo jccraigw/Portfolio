@@ -10,9 +10,18 @@ $(function () {
 });
 
 
+
+
+
+$(document).ready(function () {
+    $("nav").find("li").on("click", "a", function () {
+        $('.navbar-collapse.in').collapse('hide');
+    });
+});
+
  $('a').click(function(){
     $('html, body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top-50
     }, 500);
-    return false;
+   
 });

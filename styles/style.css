@@ -1,7 +1,7 @@
-/**{
+// *{
 
-	border: 1px solid red !important;
-}*/
+// 	border: 1px solid red !important;
+// }
 body{
 
 	margin: 0;
@@ -79,11 +79,11 @@ header .header-content .header-content-inner p {
 }
 #about{
   background-color: #4a5F70;
-  height: 50vh;
+  height: 100vh;
 }
 #skills{
 
- /* height: 100vh;*/
+  // height: 100vh;
 }
 
 
@@ -98,6 +98,11 @@ header .header-content .header-content-inner p {
 
  
 
+}
+.port{
+
+  height: 50vh;
+  border: 1px solid black;
 }
 
 .padding-0{
