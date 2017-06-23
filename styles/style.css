@@ -4,10 +4,12 @@
 // }
 body{
 
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	height: 100%;
+	    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
 }
 
 .navbar-default {
@@ -30,7 +32,7 @@ body{
 }
 header{
 position: relative;
-  width: 100%;
+  
   min-height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -40,13 +42,13 @@ position: relative;
   background-image: url('../images/landscape2.jpg');
   text-align: center;
   color: white;
-  height: 100vh;
+  
 }
 header .header-content {
   position: relative;
   text-align: center;
-  padding: 100px 15px 100px;
-  width: 100%;
+  padding: 100px 0px 100px;
+  
 }
 header .header-content .header-content-inner h1 {
   font-weight: 700;
@@ -119,8 +121,7 @@ header .header-content .header-content-inner p {
 
 header a span {
   position: absolute;
-  top: 1;
-  left: 50%;
+ 
   width: 24px;
   height: 24px;
   margin-left: -12px;
@@ -131,7 +132,7 @@ header a span {
   -webkit-animation: sdb04 2s infinite;
   animation: sdb04 2s infinite;
   box-sizing: border-box;
-  margin-top: 100px;
+  margin-top: 10px;
 }
 @-webkit-keyframes sdb04 {
   0% {
@@ -155,6 +156,27 @@ header a span {
     transform: rotate(-45deg) translate(0, 0);
   }
 }
+@-ms-viewport{
+  width: device-width;
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
 
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+  #me{
+
+    margin-left: 0;
+    position: inherit;
+  }
+
+}
 
 
