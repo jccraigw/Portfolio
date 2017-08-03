@@ -11,15 +11,18 @@ body{
     overflow-x: hidden;
 
 }
+.navbar{
 
+  color: rgb(85, 85, 85);
+}
 .navbar-default {
     background-color: transparent;
-    border-color: rgba(255, 255, 255, 0.3);
+    border-color: rgb(85, 85, 85);
 
   }
 
  .navbar-default .nav > li > a {
- color: white;
+color: rgb(85, 85, 85);
   
 }
 .navbar-fixed-top.scrolled {
@@ -30,6 +33,10 @@ body{
  color: rgb(85, 85, 85);
   
 }
+#scoll{
+
+  color: rgb(85, 85, 85);
+}
 header{
 position: relative;
   
@@ -39,15 +46,16 @@ position: relative;
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../images/landscape2.jpg');
+  // background-image: url('../images/landscape2.jpg');
   text-align: center;
-  color: white;
+  color: rgb(85, 85, 85);
   
 }
 header .header-content {
   position: relative;
   text-align: center;
   padding: 100px 0px 100px;
+  color: rgb(85, 85, 85);
   
 }
 header .header-content .header-content-inner h1 {
@@ -56,11 +64,13 @@ header .header-content .header-content-inner h1 {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 60px;
+  color: rgb(85, 85, 85);
 
   
 }
 header .header-content .header-content-inner hr {
   margin: 30px auto;
+  color: rgb(85, 85, 85);
 
 
 }
@@ -69,6 +79,7 @@ header .header-content .header-content-inner p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
   margin-bottom: 50px;
+  color: rgb(85, 85, 85);
 
 }
 #me{
@@ -80,18 +91,18 @@ header .header-content .header-content-inner p {
 	
 }
 #about{
-  background-color: #4a5F70;
+  border-top: 1px solid rgb(85, 85, 85);
   height: 100vh;
 }
 #skills{
-
+   border-top: 1px solid rgb(85, 85, 85);
   // height: 100vh;
 }
 
 
 #portfolio{
 
-  background-color: #80716a;
+ 
  margin-top: 10px;
 
 }
@@ -112,7 +123,7 @@ header .header-content .header-content-inner p {
 }
 #contact{
 
- background-color: #66777d;
+
   
  height: 50vh;
 }
@@ -133,6 +144,8 @@ header a span {
   animation: sdb04 2s infinite;
   box-sizing: border-box;
   margin-top: 10px;
+  background-color: rgb(85, 85, 85);
+  color: color: rgb(85, 85, 85);
 }
 @-webkit-keyframes sdb04 {
   0% {
@@ -175,8 +188,20 @@ only screen and (min-device-pixel-ratio: 1.5){
 
     margin-left: 0;
     position: inherit;
+
   }
 
 }
 
+.img-responsive{
 
+  height: auto; 
+    width: auto; 
+    max-width: 350px; 
+    max-height: 350px;
+    margin-left: 150px;
+}
+.container-fluid{
+
+  
+}
